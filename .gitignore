@@ -2,3 +2,4 @@ myenv/
 myenv2/
 .env
 data/
+data/itineraries.csv 
