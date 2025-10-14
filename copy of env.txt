@@ -1,0 +1,26 @@
+ # API Keys
+OPENAI_API_KEY=your_openai_api_key_here
+HUGGINGFACE_API_KEY=your_huggingface_token_here
+
+# Database Configuration
+DATABASE_URL=postgresql://username:password@localhost:5432/dbname
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=your_database_name
+DB_USER=your_username
+DB_PASSWORD=your_password
+
+# Other Configuration
+DEBUG=True
+LOG_LEVEL=INFO
+DATA_PATH=./data/
+MODEL_PATH=./models/
+
+# Web Scraping/API Endpoints
+BASE_URL=https://api.example.com
+TIMEOUT=30
+
+#from kaggle.api.kaggle_api_extended import KaggleApi
+#from dotenv import load_dotenv
+#KAGGLE_USERNAME = "esvdd1"
+#KAGGLE_KEY = "2c820c97b9a984d760fdec5de79e0897"
